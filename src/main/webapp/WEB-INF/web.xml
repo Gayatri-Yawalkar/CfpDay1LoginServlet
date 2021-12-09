@@ -10,7 +10,7 @@
   	<servlet-class>com.bridgelabz.login.LoginServlet</servlet-class>
   	<init-param>
   	<param-name>user</param-name>
-  	<param-value>Gayatri</param-value>
+  	<param-value>[A-Z][a-z]{2,}</param-value>
   	</init-param>
   	<init-param>
   	<param-name>password</param-name>
