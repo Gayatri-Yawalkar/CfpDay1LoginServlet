@@ -12,10 +12,6 @@
   	<param-name>user</param-name>
   	<param-value>[A-Z][a-z]{2,}</param-value>
   	</init-param>
-  	<init-param>
-  	<param-name>password</param-name>
-  	<param-value>Gayo</param-value>
-  	</init-param>
   </servlet>
   <servlet-mapping>
   	<servlet-name>MyFirstLogin</servlet-name>
