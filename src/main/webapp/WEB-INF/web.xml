@@ -5,12 +5,23 @@
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
   <servlet>
-  	<servlet-name>MyFirst</servlet-name>
-  	<display-name>MyFirst</display-name>
-  	<servlet-class>com.bridgelabz.servletpractice.MyFirst</servlet-class>
+  	<servlet-name>MyFirstLogin</servlet-name>
+  	<display-name>MyFirstLogin</display-name>
+  	<servlet-class>com.bridgelabz.login.LoginServlet</servlet-class>
+  	<init-param>
+  	<param-name>user</param-name>
+  	<param-value>Gayatri</param-value>
+  	</init-param>
+  	<init-param>
+  	<param-name>password</param-name>
+  	<param-value>Gayo</param-value>
+  	</init-param>
   </servlet>
   <servlet-mapping>
-  	<servlet-name>MyFirst</servlet-name>
-  	<url-pattern>/Hello</url-pattern>
+  	<servlet-name>MyFirstLogin</servlet-name>
+  	<url-pattern>/LoginServlet</url-pattern>
   </servlet-mapping>
+  <welcome-file-list>
+		<welcome-file>Login.html</welcome-file>
+	</welcome-file-list>
 </web-app>
